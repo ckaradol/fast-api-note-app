@@ -3,7 +3,7 @@
 ## 🎯 Proje Hakkında
 Bu proje, FastAPI kullanılarak geliştirilmiş bir not alma backend servisidir.  
 Uygulama, kullanıcı kimlik doğrulama, not CRUD işlemleri, arama & filtreleme, sabitleme ve geri alma gibi tüm temel özellikleri destekler.  
-Firebase veya Supabase ile entegre edilmiştir ve sadece not sahibi kullanıcıların verilere erişmesine izin verir.
+Firebase ile entegre edilmiştir ve sadece not sahibi kullanıcıların verilere erişmesine izin verir.
 
 ---
 
