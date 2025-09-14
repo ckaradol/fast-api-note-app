@@ -9,30 +9,19 @@ Firebase ile entegre edilmiştir ve sadece not sahibi kullanıcıların verilere
 
 ## 📝 Özellikler
 
-### Kullanıcı Yönetimi
-- Kayıt, giriş ve çıkış işlemleri.
-- Firebase Authentication ile güvenli kullanıcı yönetimi.
-
 ### Not Yönetimi (CRUD)
 - `GET /notes` → Kullanıcının tüm notlarını listeler.
 - `POST /notes` → Yeni not oluşturur.
 - `PUT /notes/{id}` → Not günceller.
 - `DELETE /notes/{id}` → Not siler, silinen notlar için Undo özelliği desteklenir.
 
-### Notları Sabitleme / Favorilere Ekleme
-- Notlar sabitlenebilir ve listede en üstte gösterilir.
-
 ### Arama & Filtreleme
 - Başlığa veya içeriğe göre filtreleme yapılabilir.
-- Veriler hem çevrimdışı önbellekten hem de backend’den hızlı şekilde sorgulanabilir.
 
 ### Hata Yönetimi & Güvenlik
 - Geçersiz isteklerde anlamlı hata mesajları döner.
 - Sadece not sahibi kullanıcıya veri erişim izni verilir.
 
-### Çevrimdışı Senkronizasyon
-- Mobil istemciler için çevrimdışı önbellekleme ile uyumlu.
-- Ağ bağlantısı olduğunda backend ile otomatik senkronizasyon sağlanır.
 
 ---
 
