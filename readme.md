@@ -51,7 +51,7 @@ Firebase veya Supabase ile entegre edilmiştir ve sadece not sahibi kullanıcıl
 
 ```bash
 # Repo klonla
-git clone https://github.com/kullanici/connectinno_backend.git
+git clone https://github.com/ckaradol/fast-api-note-app
 cd connectinno_backend
 
 # Sanal ortam oluştur ve etkinleştir
